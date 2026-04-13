@@ -63,6 +63,7 @@ make all
 | `--input` | Input ICS file | (required) |
 | `--stdin` | Read from stdin | false |
 | `--output` | Output file | stdout |
+| `--metadata` | metadata file | nil |
 
 ### matrix-to-ics
 
@@ -71,6 +72,7 @@ make all
 | `--input` | Input flat stream file | (required) |
 | `--stdin` | Read from stdin | false |
 | `--output` | Output ICS file | stdout |
+| `--metadata` | metadata file | nil |
 
 ## Flat Byte Stream Format
 
@@ -87,9 +89,9 @@ id year month day hour minute duration priority category deadline_year deadline_
 
 ```sh
 # Remove past events, keep only future ones
-./bin/ics-to-matrix --input calendar.ics | \
+./bin/ics-to-matrix --input calendar.ics --metadata .m/m.json| \
   uiua scripts/prune.ua | \
-  ./bin/matrix-to-ics --stdin > future.ics
+  ./bin/matrix-to-ics --stdin > future.ics --metadata .m/m.json
 ```
 
 ### View Event Data
@@ -137,7 +139,6 @@ Optimization passes are written in Uiua and located in `scripts/`:
 |-------|---------|
 | `pass.ua` | Identity pass (no changes) |
 | `prune.ua` | Remove past events |
-| `remove_dupes.ua` | Remove duplicate events |
 | `tools.ua` | Helper functions |
 
 ## Project Structure
