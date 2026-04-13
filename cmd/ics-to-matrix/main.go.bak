@@ -1,0 +1,210 @@
+package main
+
+import (
+	"flag"
+	"fmt"
+	"io"
+	"os"
+	"strings"
+
+	ical "github.com/arran4/golang-ical"
+	ics "github.com/arran4/golang-ical"
+)
+
+func parseICS(data []byte) (string, error) {
+	//make maps for decency graph
+
+	cal, err := ical.ParseCalendar(strings.NewReader(string(data)))
+	if err != nil {
+		return "", err
+	}
+
+	var sb strings.Builder
+	eventID := 0
+	for _, event := range cal.Events() {
+		start := event.GetProperty(ical.ComponentPropertyDtStart)
+		duration := event.GetProperty(ical.ComponentPropertyDuration)
+		priority := event.GetProperty(ical.ComponentPropertyPriority)
+		categories := event.GetProperty(ical.ComponentPropertyCategories)
+
+		//_dependent_id := event.GetProperties(ical.ComponentPropertyRelatedTo)
+		year, month, day, hour, minute := 2026, 1, 1, 0, 0
+		if start != nil {
+			dt := start.Value
+			if len(dt) >= 8 {
+				fmt.Sscanf(dt[:4], "%d", &year)
+				if len(dt) >= 10 {
+					fmt.Sscanf(dt[4:6], "%d", &month)
+					fmt.Sscanf(dt[6:8], "%d", &day)
+				}
+				if len(dt) >= 14 {
+					fmt.Sscanf(dt[9:11], "%d", &hour)
+					fmt.Sscanf(dt[11:13], "%d", &minute)
+				}
+			}
+		}
+
+		dur := 60
+		if duration != nil {
+			durStr := duration.Value
+			if strings.HasPrefix(durStr, "PT") {
+				durStr = durStr[2:]
+				var h, m int
+				if idx := strings.Index(durStr, "H"); idx != -1 {
+					fmt.Sscanf(durStr[:idx], "%d", &h)
+				}
+				if idx := strings.Index(durStr, "M"); idx != -1 {
+					if strings.Contains(durStr, "H") {
+						fmt.Sscanf(durStr[strings.Index(durStr, "H")+1:idx], "%d", &m)
+					} else {
+						fmt.Sscanf(durStr[:idx], "%d", &m)
+					}
+				}
+				dur = h*60 + m
+			}
+		}
+
+		pri := 0
+		if priority != nil {
+			fmt.Sscanf(priority.Value, "%d", &pri)
+		}
+
+		cat := 0
+		if categories != nil {
+			catStr := strings.ToLower(categories.Value)
+			if strings.Contains(catStr, "dev") {
+				cat = 1
+			} else if strings.Contains(catStr, "personal") {
+				cat = 2
+			}
+		}
+		// this get the event deadline from the event and set it to the deadline variable
+		//_deadline := event.GetProperty(ical.ComponentPropertyDue)
+		_deadline := event.GetProperties(ical.ComponentPropertyDue)
+		deadline_hour := -1
+		deadline_minute := -1
+		deadline_year := -1
+		deadline_month := -1
+		deadline_day := -1
+		if _deadline != nil {
+			deadlinestr := _deadline[0].Value
+			if len(deadlinestr) >= 8 {
+				fmt.Sscanf(deadlinestr[:4], "%d", &deadline_year)
+				if len(deadlinestr) >= 10 {
+					fmt.Sscanf(deadlinestr[4:6], "%d", &deadline_month)
+					fmt.Sscanf(deadlinestr[6:8], "%d", &deadline_day)
+				}
+				if len(deadlinestr) >= 14 {
+					fmt.Sscanf(deadlinestr[9:11], "%d", &deadline_hour)
+					fmt.Sscanf(deadlinestr[11:13], "%d", &deadline_minute)
+				}
+			}
+		}
+
+		rules, err := event.GetRRules()
+		frequency := -1
+		interval := -1
+		until_year := -1
+		by_day_mask := -1
+
+		// the lib treats it like there can be more than on rules
+		// but the format only allows 1 so idk so we will just use the first rule
+		if err == nil {
+			// we are only going to look at the starting rule
+			if len(rules) != 0 {
+				switch rules[0].Freq {
+				case ical.FrequencyMinutely:
+					frequency = 1
+				case ical.FrequencyHourly:
+					frequency = 2
+				case ical.FrequencyDaily:
+					frequency = 3
+				case ical.FrequencyWeekly:
+					frequency = 4
+				case ical.FrequencyMonthly:
+					frequency = 5
+				case ical.FrequencyYearly:
+					frequency = 6
+				}
+
+				//make the masks
+
+			}
+		}
+
+		//id,year,month,day,hour,minute,duration_minutes,priority,category_id,deadline_year,deadline_month,deadline_day,deadline_hour,deadline_minute,frequency,interval,until_year,by_day_mask,count,is_mutable
+		sb.WriteString(fmt.Sprintf("%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d ",
+			eventID, year, month, day, hour, minute, dur, pri, cat, deadline_year, deadline_month, deadline_day, deadline_hour, deadline_minute, frequency, interval, until_year, by_day_mask))
+		eventID++
+	}
+
+	return sb.String(), nil
+}
+
+func getDependentID(event *ics.VEvent, uidToID map[string]int) int {
+	props := event.GetProperties(ics.ComponentPropertyRelatedTo)
+	if len(props) == 0 {
+		return -1
+	}
+
+	uid := strings.TrimSpace(props[0].Value)
+	if uid == "" {
+		return -1
+	}
+
+	if id, ok := uidToID[uid]; ok {
+		return id
+	}
+	return -1
+}
+
+func main() {
+	inputFile := flag.String("input", "", "Input ICS file")
+	stdin := flag.Bool("stdin", false, "Read from stdin")
+	outputFile := flag.String("output", "", "Output flat stream file (empty = stdout)")
+	flag.Parse()
+
+	var r io.Reader
+	if *stdin {
+		r = os.Stdin
+	} else if *inputFile != "" {
+		f, err := os.Open(*inputFile)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error opening input file: %v\n", err)
+			os.Exit(1)
+		}
+		defer f.Close()
+		r = f
+	} else {
+		fmt.Fprintf(os.Stderr, "Usage: --input <file.ics> [--output <output.txt>]\n   or: --stdin [--output <output.txt>]\n")
+		os.Exit(1)
+	}
+
+	data, err := io.ReadAll(r)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error reading input: %v\n", err)
+		os.Exit(1)
+	}
+
+	output, err := parseICS(data)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error parsing ICS: %v\n", err)
+		os.Exit(1)
+	}
+
+	var out io.Writer
+	if *outputFile != "" {
+		f, err := os.Create(*outputFile)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error creating output file: %v\n", err)
+			os.Exit(1)
+		}
+		defer f.Close()
+		out = f
+	} else {
+		out = os.Stdout
+	}
+
+	io.WriteString(out, output)
+	io.WriteString(out, "\n") // if this is not done uiua fails to parse
+}

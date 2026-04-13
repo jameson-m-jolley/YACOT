@@ -1,0 +1,94 @@
+["scan_line",2]
+{"push":[[]," "]}
+["BY",[[2,1,["NE",3]]],4]
+["PARTITION",[[1,1,["BOX",6]]],5]
+["PARSE",7]
+{"push":["∞",30.0]}
+["RESHAPE",9]
+{"bind_global":[0,1]}
+["env_args",17]
+{"push":1}
+["DROP",18]
+["ROWS",[[1,1,[{"custom_inverse":[{"normal":{"Ok":[1,1,["UN_BOX",19]]},"un":[1,1,["BOX",19]]},20]},{"push":[[],"="]},["BY",[[2,1,["NE",21]]],22],["PARTITION",[[1,1,["BOX",24]]],23],["FIRST",25]]]],26]
+{"bind_global":[2,16]}
+["env_args",28]
+{"push":1}
+["DROP",29]
+["ROWS",[[1,1,[{"custom_inverse":[{"normal":{"Ok":[1,1,["UN_BOX",30]]},"un":[1,1,["BOX",30]]},31]},{"push":[[],"="]},["BY",[[2,1,["NE",32]]],33],["PARTITION",[[1,1,["BOX",35]]],34],["LAST",36]]]],37]
+{"bind_global":[3,27]}
+{"call_global":[3,[0,1]]}
+{"call_global":[2,[0,1]]}
+["MAP",39]
+{"bind_global":[4,38]}
+
+DEPENDENCIES
+
+EXPORTS
+ParseStdio 0
+FlatMatrixOut 1
+Getkeys 2
+Getvalues 3
+GetArgs 4
+
+BINDINGS
+const null 1
+  comment: {"text":"this takes the input vector from a flat array and shapes it to the correct size"}
+func ["FlatMatrixOut",[1,0],0,7998883400199900490,1] 10
+  comment: {"text":"this takes the matrix and and returns a flat matrix out of it\nthis also prints out to the std"}
+const null 16
+  comment: {"text":"this is for getting the keys for the args"}
+const null 27
+const null 38
+
+FUNCTIONS
+[["DESHAPE",11],["ROWS",[[1,0,[{"push":[[]," "]},["prin",12],["prin",13]]]],14],{"push":[[]," "]},["print",15]]
+
+INDEX MACROS
+
+CODE MACROS
+
+SPANS
+file0 [2,1,81,81] [2,11,91,91]
+file0 [2,26,122,106] [2,29,125,109]
+file0 [2,23,117,103] [2,24,120,104]
+file0 [2,22,114,102] [2,23,117,103]
+file0 [2,20,108,100] [2,21,111,101]
+file0 [2,21,111,101] [2,22,114,102]
+file0 [2,19,105,99] [2,20,108,100]
+file0 [2,15,99,95] [2,19,105,99]
+file0 [2,14,96,94] [2,15,99,95]
+file0 [6,1,225,209] [6,14,238,222]
+file0 [6,33,261,241] [6,34,264,242]
+file0 [6,27,255,235] [6,30,258,238]
+file0 [6,23,251,231] [6,26,254,234]
+file0 [6,21,247,229] [6,22,250,230]
+file0 [6,17,243,225] [6,19,245,227]
+file0 [9,1,310,288] [9,8,317,295]
+file0 [9,32,360,319] [9,37,365,324]
+file0 [9,30,356,317] [9,31,359,318]
+file0 [9,28,352,315] [9,29,355,316]
+file0 [9,27,350,314] [9,28,352,315]
+file0 [9,23,344,310] [9,24,347,311]
+file0 [9,22,341,309] [9,23,344,310]
+file0 [9,19,334,306] [9,20,337,307]
+file0 [9,20,337,307] [9,21,340,308]
+file0 [9,17,330,304] [9,18,333,305]
+file0 [9,15,326,302] [9,16,329,303]
+file0 [10,1,366,325] [10,10,375,334]
+file0 [10,31,415,355] [10,36,420,360]
+file0 [10,29,411,353] [10,30,414,354]
+file0 [10,27,407,351] [10,28,410,352]
+file0 [10,26,405,350] [10,27,407,351]
+file0 [10,22,399,346] [10,23,402,347]
+file0 [10,21,396,345] [10,22,399,346]
+file0 [10,18,389,342] [10,19,392,343]
+file0 [10,19,392,343] [10,20,395,344]
+file0 [10,16,385,340] [10,17,388,341]
+file0 [10,14,381,338] [10,15,384,339]
+file0 [11,1,421,361] [11,8,428,368]
+file0 [11,12,434,372] [11,15,437,375]
+
+FILES
+scripts/tools.ua: "#this takes the input vector from a flat array and shapes it to the correct size\nParseStdio ← ↯∞_30⋕⊜□⊸≠@ &sc\n\n# this takes the matrix and and returns a flat matrix out of it\n# this also prints out to the std\nFlatMatrixOut ← &p@ ≡(&pf &pf@ )♭\n\n# this is for getting the keys for the args\nGetkeys ←     ≡(⊢ ⊜□ ⊸≠@= °□)↘1&args\nGetvalues ←  ≡(⊣ ⊜□ ⊸≠@= °□)↘1&args\nGetArgs ←  map Getkeys Getvalues"
+
+MACRO EXPANSIONS

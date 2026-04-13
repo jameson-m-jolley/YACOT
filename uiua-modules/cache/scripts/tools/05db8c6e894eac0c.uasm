@@ -1,0 +1,224 @@
+["scan_line",2]
+{"push":[[]," "]}
+["BY",[[2,1,["NE",3]]],4]
+["PARTITION",[[1,1,["BOX",6]]],5]
+["PARSE",7]
+{"push":["∞",30.0]}
+["RESHAPE",9]
+{"bind_global":[0,1]}
+["env_args",17]
+{"push":1}
+["DROP",18]
+["ROWS",[[1,1,[{"custom_inverse":[{"normal":{"Ok":[1,1,["UN_BOX",19]]},"un":[1,1,["BOX",19]]},20]},{"push":[[],"="]},["BY",[[2,1,["NE",21]]],22],["PARTITION",[[1,1,["BOX",24]]],23],["FIRST",25]]]],26]
+{"bind_global":[2,16]}
+["env_args",28]
+{"push":1}
+["DROP",29]
+["ROWS",[[1,1,[{"custom_inverse":[{"normal":{"Ok":[1,1,["UN_BOX",30]]},"un":[1,1,["BOX",30]]},31]},{"push":[[],"="]},["BY",[[2,1,["NE",32]]],33],["PARTITION",[[1,1,["BOX",35]]],34],["LAST",36]]]],37]
+{"bind_global":[3,27]}
+{"call_global":[3,[0,1]]}
+{"call_global":[2,[0,1]]}
+["MAP",39]
+{"bind_global":[4,38]}
+
+DEPENDENCIES
+
+EXPORTS
+ParseStdio 0
+FlatMatrixOut 1
+Getkeys 2
+Getvalues 3
+GetArgs 4
+IdIndex 5
+YearIndex 6
+MonthIndex 7
+DayIndex 8
+HourIndex 9
+MinuteIndex 10
+DurationMinutesIndex 11
+PriorityIndex 12
+CategoryIdIndex 13
+DeadlineYearIndex 14
+DeadlineMonthIndex 15
+DeadlineDayIndex 16
+DeadlineHourIndex 17
+DeadlineMinuteIndex 18
+FrequencyIndex 19
+IntervalIndex 20
+UntilYearIndex 21
+UntilMonthIndex 22
+UntilDayIndex 23
+UntilHourIndex 24
+UntilMinuteIndex 25
+ByDayMaskIndex 26
+ByMonthMaskIndex 27
+ByMonthdayMaskIndex 28
+ByHourMaskIndex 29
+ByMinuteMaskIndex 30
+BySecondMaskIndex 31
+CountIndex 32
+IsMutableIndex 33
+WkstIndex 34
+GetImmutableRows 35
+GetRowsWithRruls 36
+GetFutureRows 37
+
+BINDINGS
+const null 1
+  comment: {"text":"this takes the input vector from a flat array and shapes it to the correct size"}
+func ["FlatMatrixOut",[1,0],0,7998883400199900490,1] 10
+  comment: {"text":"this takes the matrix and and returns a flat matrix out of it\nthis also prints out to the std"}
+const null 16
+  comment: {"text":"this is for getting the keys for the args"}
+const null 27
+const null 38
+const 0 40
+  comment: {"text":"matrix offsets"}
+const 1 41
+const 2 42
+const 3 43
+const 4 44
+const 5 45
+const 6 46
+const 7 47
+const 8 48
+const 9 49
+const 10 50
+const 11 51
+const 12 52
+const 13 53
+const 14 54
+const 15 55
+const 16 56
+const 17 57
+const 18 58
+const 19 59
+const 20 60
+const 21 61
+const 22 62
+const 23 63
+const 24 64
+const 25 65
+const 26 66
+const 27 67
+const 28 68
+const 29 69
+func ["GetImmutableRows",[1,1],1,10035390055485815991,35] 70
+  comment: {"text":"helper functions for using to get data (useful for pruning down files and doing other logic)"}
+func ["GetRowsWithRruls",[1,1],2,18228981977096851784,36] 77
+func ["GetFutureRows",[1,1],3,16269740442614021082,37] 85
+
+FUNCTIONS
+[["DESHAPE",11],["ROWS",[[1,0,[{"push":[[]," "]},["prin",12],["prin",13]]]],14],{"push":[[]," "]},["print",15]]
+[["DUP",72],{"push":28},["ROWS",[[2,1,["PICK",73]]],74],["NOT",75],["KEEP",76]]
+[["DUP",79],{"push":14},["ROWS",[[2,1,["PICK",80]]],81],{"push":1},["ROWS",[[2,1,["GT",82]]],83],["KEEP",84]]
+[["DUP",87],["ROWS",[[1,1,[{"push":5},["TAKE",88],{"push":1},["DROP",89],["NOW",90],["DATE_TIME",91],{"push":4},["TAKE",92],["GT",93],["REDUCE",[[2,1,["ADD",95]]],94]]]],97],{"push":4},["EQ",96],["KEEP",98]]
+
+INDEX MACROS
+
+CODE MACROS
+
+SPANS
+file0 [2,1,82,82] [2,11,92,92]
+file0 [2,26,123,107] [2,29,126,110]
+file0 [2,23,118,104] [2,24,121,105]
+file0 [2,22,115,103] [2,23,118,104]
+file0 [2,20,109,101] [2,21,112,102]
+file0 [2,21,112,102] [2,22,115,103]
+file0 [2,19,106,100] [2,20,109,101]
+file0 [2,15,100,96] [2,19,106,100]
+file0 [2,14,97,95] [2,15,100,96]
+file0 [6,1,226,210] [6,14,239,223]
+file0 [6,33,262,242] [6,34,265,243]
+file0 [6,27,256,236] [6,30,259,239]
+file0 [6,23,252,232] [6,26,255,235]
+file0 [6,21,248,230] [6,22,251,231]
+file0 [6,17,244,226] [6,19,246,228]
+file0 [9,1,311,289] [9,8,318,296]
+file0 [9,30,359,318] [9,35,364,323]
+file0 [9,28,355,316] [9,29,358,317]
+file0 [9,26,351,314] [9,27,354,315]
+file0 [9,25,349,313] [9,26,351,314]
+file0 [9,21,343,309] [9,22,346,310]
+file0 [9,20,340,308] [9,21,343,309]
+file0 [9,17,333,305] [9,18,336,306]
+file0 [9,18,336,306] [9,19,339,307]
+file0 [9,15,329,303] [9,16,332,304]
+file0 [9,13,325,301] [9,14,328,302]
+file0 [10,1,365,324] [10,10,374,333]
+file0 [10,30,413,353] [10,35,418,358]
+file0 [10,28,409,351] [10,29,412,352]
+file0 [10,26,405,349] [10,27,408,350]
+file0 [10,25,403,348] [10,26,405,349]
+file0 [10,21,397,344] [10,22,400,345]
+file0 [10,20,394,343] [10,21,397,344]
+file0 [10,17,387,340] [10,18,390,341]
+file0 [10,18,390,341] [10,19,393,342]
+file0 [10,15,383,338] [10,16,386,339]
+file0 [10,13,379,336] [10,14,382,337]
+file0 [11,1,419,359] [11,8,426,366]
+file0 [11,13,433,371] [11,16,436,374]
+file0 [14,1,473,411] [14,8,480,418]
+file0 [15,1,500,436] [15,10,509,445]
+file0 [16,1,527,461] [16,11,537,471]
+file0 [17,1,554,486] [17,9,562,494]
+file0 [18,1,581,511] [18,10,590,520]
+file0 [19,1,608,536] [19,12,619,547]
+file0 [20,1,635,561] [20,21,655,581]
+file0 [21,1,662,586] [21,14,675,599]
+file0 [22,1,689,611] [22,16,704,626]
+file0 [23,1,716,636] [23,18,733,653]
+file0 [24,1,743,661] [24,19,761,679]
+file0 [25,1,771,687] [25,17,787,703]
+file0 [26,1,799,713] [26,18,816,730]
+file0 [27,1,827,739] [27,20,846,758]
+file0 [28,1,855,765] [28,15,869,779]
+file0 [29,1,883,791] [29,14,896,804]
+file0 [30,1,911,817] [30,15,925,831]
+file0 [31,1,939,843] [31,16,954,858]
+file0 [32,1,967,869] [32,14,980,882]
+file0 [33,1,995,895] [33,15,1009,909]
+file0 [34,1,1023,921] [34,17,1039,937]
+file0 [35,1,1051,947] [35,15,1065,961]
+file0 [36,1,1079,973] [36,17,1095,989]
+file0 [37,1,1107,999] [37,20,1126,1018]
+file0 [38,1,1135,1025] [38,16,1150,1040]
+file0 [39,1,1163,1051] [39,18,1180,1068]
+file0 [40,1,1191,1077] [40,18,1208,1094]
+file0 [41,1,1219,1103] [41,11,1229,1113]
+file0 [42,1,1247,1129] [42,15,1261,1143]
+file0 [43,1,1275,1155] [43,10,1284,1164]
+file0 [46,1,1398,1276] [46,17,1414,1292]
+file0 [46,39,1447,1314] [46,40,1450,1315]
+file0 [46,38,1444,1313] [46,40,1450,1315]
+file0 [46,23,1427,1298] [46,24,1430,1299]
+file0 [46,22,1424,1297] [46,23,1427,1298]
+file0 [46,21,1422,1296] [46,22,1424,1297]
+file0 [46,20,1419,1295] [46,21,1422,1296]
+file0 [47,1,1451,1316] [47,17,1467,1332]
+file0 [47,43,1505,1358] [47,44,1508,1359]
+file0 [47,42,1502,1357] [47,44,1508,1359]
+file0 [47,27,1485,1342] [47,28,1488,1343]
+file0 [47,26,1482,1341] [47,27,1485,1342]
+file0 [47,23,1479,1338] [47,24,1480,1339]
+file0 [47,22,1476,1337] [47,23,1479,1338]
+file0 [47,20,1472,1335] [47,21,1475,1336]
+file0 [48,1,1509,1360] [48,14,1522,1373]
+file0 [48,63,1585,1422] [48,64,1588,1423]
+file0 [48,62,1582,1421] [48,64,1588,1423]
+file0 [48,48,1566,1407] [48,49,1569,1408]
+file0 [48,46,1562,1405] [48,47,1565,1406]
+file0 [48,40,1556,1399] [48,43,1559,1402]
+file0 [48,31,1547,1390] [48,39,1555,1398]
+file0 [48,29,1543,1388] [48,30,1546,1389]
+file0 [48,27,1541,1386] [48,28,1542,1387]
+file0 [48,25,1539,1384] [48,26,1540,1385]
+file0 [48,26,1540,1385] [48,27,1541,1386]
+file0 [48,23,1537,1382] [48,24,1538,1383]
+file0 [48,21,1533,1380] [48,22,1536,1381]
+file0 [48,20,1530,1379] [48,21,1533,1380]
+
+FILES
+scripts/tools.ua: "# this takes the input vector from a flat array and shapes it to the correct size\nParseStdio ← ↯∞_30⋕⊜□⊸≠@ &sc\n\n# this takes the matrix and and returns a flat matrix out of it\n# this also prints out to the std\nFlatMatrixOut ← &p@ ≡(&pf &pf@ )♭\n\n# this is for getting the keys for the args\nGetkeys   ← ≡(⊢ ⊜□ ⊸≠@= °□)↘1&args\nGetvalues ← ≡(⊣ ⊜□ ⊸≠@= °□)↘1&args\nGetArgs   ← map Getkeys Getvalues\n\n#matrix offsets \nIdIndex              ← 0\nYearIndex            ← 1\nMonthIndex           ← 2\nDayIndex             ← 3\nHourIndex            ← 4\nMinuteIndex          ← 5\nDurationMinutesIndex ← 6\nPriorityIndex        ← 7\nCategoryIdIndex      ← 8\nDeadlineYearIndex    ← 9\nDeadlineMonthIndex   ← 10\nDeadlineDayIndex     ← 11\nDeadlineHourIndex    ← 12\nDeadlineMinuteIndex  ← 13\nFrequencyIndex       ← 14\nIntervalIndex        ← 15\nUntilYearIndex       ← 16\nUntilMonthIndex      ← 17\nUntilDayIndex        ← 18\nUntilHourIndex       ← 19\nUntilMinuteIndex     ← 20\nByDayMaskIndex       ← 21\nByMonthMaskIndex     ← 22\nByMonthdayMaskIndex  ← 23\nByHourMaskIndex      ← 24\nByMinuteMaskIndex    ← 25\nBySecondMaskIndex    ← 26\nCountIndex           ← 27\nIsMutableIndex       ← 28\nWkstIndex            ← 29\n\n#helper functions for using to get data (useful for pruning down files and doing other logic)\nGetImmutableRows ← ▽¬≡⊡IsMutableIndex⟜∘\nGetRowsWithRruls ← ▽ ≡>1 ≡⊡FrequencyIndex⟜∘\nGetFutureRows    ← ▽≡(=4/+>(↙4datetime now) (↘1↙MinuteIndex))⟜∘\n"
+
+MACRO EXPANSIONS

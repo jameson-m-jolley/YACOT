@@ -1,0 +1,47 @@
+["scan_line",2]
+{"push":[[]," "]}
+["BY",[[2,1,["NE",3]]],4]
+["PARTITION",[[1,1,["BOX",6]]],5]
+["PARSE",7]
+{"push":["∞",14.0]}
+["RESHAPE",9]
+{"bind_global":[0,1]}
+
+DEPENDENCIES
+
+EXPORTS
+ParseStdio 0
+FlatMatrixOut 1
+
+BINDINGS
+const null 1
+func ["FlatMatrixOut",[1,0],0,1298866383878066641,1] 10
+  comment: {"text":"this takes the matrix and and returns a flat matrix out of it\nthis also prints out to the std"}
+
+FUNCTIONS
+[["DESHAPE",11],["ROWS",[[1,0,[{"push":[[]," "]},["prin",12],["prin",13]]]],14]]
+
+INDEX MACROS
+
+CODE MACROS
+
+SPANS
+file0 [1,1,0,0] [1,11,10,10]
+file0 [1,26,41,25] [1,29,44,28]
+file0 [1,23,36,22] [1,24,39,23]
+file0 [1,22,33,21] [1,23,36,22]
+file0 [1,20,27,19] [1,21,30,20]
+file0 [1,21,30,20] [1,22,33,21]
+file0 [1,19,24,18] [1,20,27,19]
+file0 [1,15,18,14] [1,19,24,18]
+file0 [1,14,15,13] [1,15,18,14]
+file0 [5,1,144,128] [5,14,157,141]
+file0 [5,30,175,157] [5,31,178,158]
+file0 [5,23,168,150] [5,26,171,153]
+file0 [5,19,164,146] [5,22,167,149]
+file0 [5,17,160,144] [5,18,163,145]
+
+FILES
+scripts/tools.ua: "ParseStdio ← ↯∞_14⋕⊜□⊸≠@ &sc\n\n# this takes the matrix and and returns a flat matrix out of it\n# this also prints out to the std\nFlatMatrixOut = ≡(&pf &pf@ ) ♭\n\n"
+
+MACRO EXPANSIONS

@@ -1,0 +1,10 @@
+all of the uiua scripts fallow this convention
+the uiua scripts take in a stream from stdin
+the arguments are passed as [kes] [values]
+
+example:
+uiua script.ua key=val
+if the lengths do not match, it will throw an error
+if the helps exist, it will return the help string  
+the code for this will be in the tools.ua file
+in the uiua script this will make a map 
