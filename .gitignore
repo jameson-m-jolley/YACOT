@@ -1,2 +1,4 @@
 testdata
 uiua-modules
+bin/ics-to-matrix
+bin/matrix-to-ics
