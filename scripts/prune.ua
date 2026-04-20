@@ -1,16 +1,17 @@
-# Prune pass - pass through unchanged
-# Input: CSV from xargs
-# Output: CSV unchanged
+# takes in a flat stream that is shaped into a n_30 matrix this 
+# this script is for pruning functions 
+# the only thing this script dose is discard past events that are not needed
+# we have plans for more but not at the moment
 Tools ~ "tools.ua"
 
 #for this pass if DiscardPast=1 then discard all events that todays data from the passed in matrix
 Tools~ParseStdio
-#id,year,month,day,hour,minute,duration_minutes,priority,category_id,deadline_year,deadline_month,deadline_day,deadline_hour,deadline_minute,frequency,interval,until_year,until_month,until_day,until_hour,until_minute,by_day_mask,by_month_mask,by_monthday_mask,by_hour_mask,by_minute_mask,by_second_mask,count,is_mutable,wkst
 ⨬∘(
-      ⊂ ⊙Tools~GetRowsWithRruls  Tools~GetRowsWithRruls ⟜∘
+      ⊂ ⊙Tools~GetFutureRows Tools~GetUnexpiredRruleRows Tools~GetRowsWithRrule ⟜∘
 )⋕°□get□"DiscardPast"Tools~GetArgs
 
-⨬∘(Tools~GetFutureRows)⋕°□get□"test"Tools~GetArgs
+#⨬∘(Tools~GetFutureRows)⋕°□get□"test"Tools~GetArgs
+Tools~FlatMatrixOut
 
 #Tools~FlatMatrixOut
 #Tools~FlatMatrixOut
