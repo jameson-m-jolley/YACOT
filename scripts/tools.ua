@@ -43,10 +43,14 @@ GetImmutableRows ← ▽¬≡⊡IsMutableIndex⟜∘
 GetRowsWithRrule ← ▽ ≡>1 ≡⊡FrequencyIndex⟜∘
 
 # this gits rows with rules that repeat
-GetFutureRows    ← ▽≡(=4/+>(↙4datetime now) (↘1↙MinuteIndex))⟜∘
+GetFutureRows    ← ▽≡(=4/+<(↙4datetime now) (↘1↙MinuteIndex))⟜∘
 
 # this gits rows with rules that repeat that have not ended
 GetUnexpiredRruleRows = ▽≡(+ =4/+>(↙4datetime now)  ⊙ (=4/+<0) ⟜∘(↘UntilYearIndex↙UntilMinuteIndex))⟜∘
+
+#get a row with an id
+GetRowWithID = ∘
+
 
 # this takes the input vector from a flat array and shapes it to the correct size
 ParseStdio ← ↯∞_30⋕⊜□⊸≠@ &sc
@@ -91,3 +95,9 @@ AvgFreeTimePerHour = ∘
 
 
 #--------------------------------------------------
+#tests. 
+
+
+
+
+

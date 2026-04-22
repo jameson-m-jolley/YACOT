@@ -1,3 +1,3 @@
 Tools ~ "tools.ua"
 Tools~ParseStdio
-Tools~AvgFreeTimePerHour
+Tools~GetRowWithID 75
