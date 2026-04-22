@@ -1,0 +1,1239 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//YACOT//Calendar Optimizer//EN
+METHOD:PUBLISH
+X-WR-CALNAME:YACOT Calendar
+BEGIN:VEVENT
+UID:ccom6c1gcop30b9l6spj4b9k64s68b9o70s66b9hc5im6cppcksm2d1k6o@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240823T123000
+DURATION:PT1H
+SUMMARY:Class
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:arQXJETiC60qlyU0.6MbPKQ.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210502T220000
+DURATION:PT1H
+SUMMARY:Lab 13:  Informative Speeches End - Day 3 [COMM-1115G-M3H]
+DESCRIPTION:----------------------------------------------------\nCOMM 1115
+ GLab 13:  Informative Speeches End - Day 3 \n---------------------------
+ -------------------------\n\nSpring 2023 – M3H\n\nInformative Speech Pre
+ sentation\n\nGroup Schedule\n\nGroup 1\n\n* Juan Branch\n\n* Patricia Devo
+ ra\n\n* DJ Ford\n\n* Christopher Gabaldon\n\nGroup 2\n\n* Leo Griego\n\n* 
+ Mia Gutierrez\n\n* David Hansen\n\n* Itzel Jimenez\n\nGroup 3\n\n* Pierre 
+ Johnson\n\n* Jameson Jolley\n\n* Mark Montoya\n\n* Valerie Runyan\n\n \n\
+ nGood luck if you are presenting today! :) Remember to complete the [Infor
+ mative Speech Self-Assessment.] (https://nmsu.instructure.com/courses/1529
+ 739/pages/informative-speech-self-assessment-guidelines)\n\n \n\n 
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220324T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ccp62opocko3cb9mchhmab9k70r66b9oc5i66b9p71gm4dhl74p64d1l6c@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240117T133000
+DURATION:PT1H
+SUMMARY:Hiit
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6kqj0c9lcgq34b9mcgr68b9k6gpm4b9p70qjcb9o6or3ae3460rjid3670@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240822T090000
+DURATION:PT1H
+SUMMARY:Bord games at the church Idaho building 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:aJyQvw4NFIU.pg4k7XBt_Cg.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230123T103000
+DURATION:PT1H
+SUMMARY:Sec. 5.1 Exponential Functions [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230512T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ccp30phh61i6cb9k6or68b9k68q62b9p6grjibb1ccs3ieb1cdgj4e1k74@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230118T083000
+DURATION:PT1H
+SUMMARY:CALCULUS I HONORS
+DESCRIPTION:Limits and continuity\, theory and computation of derivatives\,
+  applications of derivatives\, extreme values\, critical points\, derivati
+ ve tests\, L'Hopital's Rule. This is an Honors version of MATH 1511G. It i
+ s taught with MATH 1511G with differentiated assignments. Prerequisite: Ad
+ equate scoring on the Mathematics Placement Exam\, or any ACT/SAT and GPA 
+ combination that is considered equivalent\, or a C- or better in MATH 1250
+ G or higher.
+LOCATION:Science Hall 114
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230511T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c9i3gcpjckrjabb360ojib9kccrj8bb161j3ib9jcks62cr46tgjgchh74@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230122T070000
+DURATION:PT1H
+SUMMARY:Come fallow me thingy
+LOCATION:2015 crescent drive
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230222T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ckq32e1l71i38b9mcop38b9kc8s6cbb26gpmcbb16tj3apj1c4r3ge31co@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210503T123000
+DURATION:PT1H
+SUMMARY:Work
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210711T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6ksjcdpk74o3abb26tgjeb9k6dgjibb274o3ib9m6co64p356dijacpg74@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230607T080000
+DURATION:PT1H
+SUMMARY:Scripture/prayrs
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230813T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6sq36chg6gpm8bb26ph3cb9k6orjab9p6cq30b9l6gsmao9p68sj6c1lc4@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220613T213000
+DURATION:PT1H
+SUMMARY:Konyack
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230119T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:69i36dj168p68b9h68r3gb9k69h66bb16hh68b9lcksj6c1gc4o62dpl6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250113T133000
+DURATION:PT1H
+SUMMARY:INSECTS/HUMANS & ENVIRO
+LOCATION:Hardman/Jacob UG Learning Ctr 225
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:0ufb8i154gob86ouq5h6cn6f7v@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220328T054500
+DURATION:PT1H
+SUMMARY:Temple Appointment (Proxy Endowment) 20 May 2022
+DESCRIPTION:Your Appointment<br><br>Lubbock Texas Temple<br>Proxy Endowment
+ <br><br>Friday<br>May 20\, 2022<br>10:00 AM<br>All appointment times are i
+ n the local time zone of the temple.<br><br><a href="https://www.churchofj
+ esuschrist.org/temples/schedule/appointment/edit?lang=eng&appointmentId=11
+ 947506">Edit Appointment</a><br><br>Address<br>7016 Frankford Ave<br>Lubbo
+ ck TX  79424<br>United States<br><br>Phone<br>(1) 806-794-0774<br><br>Serv
+ ices<br>No clothing rental available<br>No cafeteria available<br>No patro
+ n housing available<br>No distribution center nearby<br><br><br>Please be 
+ at the temple at least 30 minutes before your session time.<br>You will ne
+ ed to bring a valid temple recommend.<br>You will also need to bring your 
+ own temple clothes.<br><br>You will receive another email 24 hours before 
+ your appointment.
+LOCATION:7016 Frankford Ave Lubbock TX  79424 United States
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220612T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ahiiISkBIM0SW0roRLMVRug.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210503T113000
+DURATION:PT1H
+SUMMARY:Sec. 6.2 Logarithmic Functions [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210711T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6oq32d1p6pj62b9k75hjab9kchijab9p60pm4bb660ojadhkccr34cr66s@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210502T223000
+DURATION:PT1H
+SUMMARY:MACHINE PROG & ORG
+DESCRIPTION:Computer structure\, instruction execution\, addressing techniq
+ ues\; programming in machine and assembly languages. Taught with C S 464. 
+  May be repeated up to 4 credits. Prerequisite: At least a C- in C S 172 o
+ r ENGR 140.
+LOCATION:Foster Hall 231
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220323T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:61j34p9lclh3eb9k6phj4b9k74qj0bb168oj4b9k64s38oph70q3aeb3cc@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220320T090000
+DURATION:PT1H
+SUMMARY:Work \n
+LOCATION:4021 National Parks Road Carlsbad NM 88220
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230115T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64q32c1p71ijeb9k61gm8b9kccsjgb9ockq30b9g6co3ge32cdgjgd1l6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230806T200000
+DURATION:PT1H
+SUMMARY:INTRO TO THEATRE
+LOCATION:Center for the Arts 209
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20250320T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:asH2C8F4_fkWDtzf4IemddA.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20220322T000000
+DURATION:PT1H
+SUMMARY:Paper Submission [COMM-1115G-M3H]
+DESCRIPTION:--------------------------\nCOMM 1115GPaper Submission\n-------
+ -------------------\n\nYou must submit only ONE of the following paper pro
+ mpts to this assignment page WITH a reference page.\n\nPrompt Options:\n--
+ -------------\n\n[Nonverbal Paper.pdf] (https://nmsu.instructure.com/cours
+ es/1529739/files/212514455?wrap=1)\n\n[Culture Paper.pdf] (https://nmsu.in
+ structure.com/courses/1529739/files/212514454?wrap=1)\n\n 
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220328T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:60pm4db1cos3abb2ccr3ib9kcgqmabb26grj4bb264o62d9p74om4dhjc4@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220328T000000
+DURATION:PT1H
+SUMMARY:Drive home and change
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220613T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:clgm8dpi68o3ibb174sjeb9k6ph3cbb16kq64b9h6dgm8d3375i66c9m74@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230607T053000
+DURATION:PT1H
+SUMMARY:Remember to bring bred
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230821T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a1WPIznBZxUKklfl43KbIqA.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20250115T150000
+DURATION:PT1H
+SUMMARY:ball with josh
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250120T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aO6DiqN1r2EygbLr_NBGHXw.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210523T113000
+DURATION:PT1H
+SUMMARY:intervew at wip
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220319T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:hp1o2852are11os4sf3knee4c0@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210506T190000
+DURATION:PT1H
+SUMMARY:groop Zoom Meeting
+DESCRIPTION:Jameson Jolley is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://us04web.zoom.us/j/2312759891?pwd=Vi9QY1JDZEswZG
+ VJUTV6N0I3Z2ozZz09\n\nMeeting ID: 231 275 9891\nPasscode: 2KU7BW\n\n
+LOCATION:https://us04web.zoom.us/j/2312759891?pwd=Vi9QY1JDZEswZGVJUTV6N0I3Z
+ 2ozZz09
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220324T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:afcwtAoZil0iw8xt2XR0OEQ.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210308T090000
+DURATION:PT1H
+SUMMARY:Sec. 7.3 Multiplying & Dividing Rational Express. [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210502T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:abBrDHJ2tU0a0KaUHvX81vA.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20250114T073000
+DURATION:PT1H
+SUMMARY:Chapter 8 Quiz (8.1-8.5) - Requires Respondus LockDown Browser + We
+ bcam [CCDM-114 N-DIC]
+DESCRIPTION:Make sure to show work (as best as you can) when asked. I sugge
+ st doing you work on a scratch sheet of paper and then transfer it onto th
+ e computer using equation editor. The equation editor is the square root o
+ f x icon (press the three dots icon to view the square root of x icon) and
+  it allows you to use mathematical notation when needed. There is a video 
+ below\, for more instruction in how to use the equation editor. If the equ
+ ation editor is not an option\, please use your keyboard to write your ans
+ wers.\n\nYou will need a laptop/computer with LockDown Browser to take thi
+ s exam. A calculator as a cell phone and notes are NOT allowed and please\
+ , note that that this exam will be timed. Do not submit the exam until you
+  are completely done answering every question. There will be no re-takes o
+ r corrections and the score you receive at the end of the exam is not your
+  final score. There are questions that I need to grade by hand. As a resul
+ t\, these questions will be marked as incorrect.\n\n[How to use Equation E
+ ditor.mp4] (https://nmsu.instructure.com/courses/1310474/files/164634111/d
+ ownload?wrap=1)\n\n 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:65h6ce9o6gr36bb26ti32b9k61gjabb26kqj4bb46grm8cpk70sjepj3co@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220328T053000
+DURATION:PT1H
+SUMMARY:Asme
+LOCATION:Jett hall 109
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220516T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cpj3aohp60r64b9j74r3ib9k6ksjib9pcpi30bb461j64dpg6goj4ohp6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240822T103000
+DURATION:PT1H
+SUMMARY:TRAINING:
+LOCATION:James B. Delamater Activity Ce 131
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6osmae1g6kr38b9k6lh68b9k6dj62b9p64ojab9gccs34dj6c4r34ob4cg@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250124T144500
+DURATION:PT1H
+SUMMARY:Payday
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250530T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:afaEKgFft4UySpQXseMzsLg.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210503T083000
+DURATION:PT1H
+SUMMARY:Packback (due 03-05-2023) [THEA-1110G-M02]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210705T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a3n00scRDFUynMoOKU2W1ug.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20181015T080000
+DURATION:PT1H
+SUMMARY:Packback (due 04-09-2023) [THEA-1110G-M02]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210228T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:asqTvP5AtFE6rxfD9IeWUIA.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210503T071500
+DURATION:PT1H
+SUMMARY:🍴breakfast
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20210504T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6him8oj36so34bb56orm4b9k61gjcb9pchhj6b9gc9j68phm75hm6dpm6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240123T150000
+DURATION:PT1H
+SUMMARY:Planing
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240506T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:75h32p3270sm8bb16thm6b9k61gj0bb270ojibb561imao9j6gqmce1o74@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240822T170000
+DURATION:PT1H
+SUMMARY:Staff meeting
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6go3copncco32b9pcop3ib9k6hij6b9p69i34b9j65j6ae9iccp30cj56k@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240822T120000
+DURATION:PT1H
+SUMMARY:Calculus midterm
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6di32cpj6dj38b9mc9i3ab9k6gp34b9o71hj8b9g6sq3ie1g6so66cpm74@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250114T133000
+DURATION:PT1H
+SUMMARY:Tack
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:70s68chg64r6cb9lcdhjeb9kcgrjab9o6ksm6bb1c4pj2dj2c8r3gd9gc4@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210309T080000
+DURATION:PT1H
+SUMMARY:Iron banner
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210503T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coq3acr1cksjab9l6opm6b9k6ksmcbb1cph6cb9pc8pjgp9ncco62c1icg@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250120T093000
+DURATION:PT1H
+SUMMARY:Bed
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250526T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:4586f6421490ba82cc4389ce2f8ea8b86b0feac3
+DTSTAMP:20260420T222413Z
+DTSTART:20250116T133000
+DURATION:PT1H
+SUMMARY:lab walkthrouth
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:60omccj36hj3abb674rj4b9kcoo3cb9o70ojcbb3ccq3ep1mccrm8o9j6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240123T090000
+DURATION:PT1H
+SUMMARY:CALCULUS II
+DESCRIPTION:Riemann sums\, the definite integral\, antiderivatives\, fundam
+ ental theorems\, techniques of integration\, applications of integrals\, i
+ mproper integrals\, Taylor polynomials\, sequences and series\, power seri
+ es and Taylor series. Prerequisite: C- or better in MATH 1511G.
+LOCATION:Science Hall 114
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:agtdyiQcTvUy2HD52QqACbQ.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20220801T210000
+DURATION:PT1H
+SUMMARY:Sec. 4.1/4.2 Quadratic Functions and Parabolas [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20221031T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:01urqnsj0rhqvs10m5sertkk2s@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240118T150000
+DURATION:PT1H
+SUMMARY:do the stuff for tomarows bio lab
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240201T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aF3OTgJbdhkihehoE2t45mQ.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230118T213000
+DURATION:PT1H
+SUMMARY:gym
+CATEGORIES:work
+RRULE:FREQ=DAILY
+END:VEVENT
+BEGIN:VEVENT
+UID:CSVConverte0679005bd0b02f7002f0a072ff8b2dc
+DTSTAMP:20260420T222413Z
+DTSTART:20240115T122000
+DURATION:PT1H
+SUMMARY:Math Problems
+DESCRIPTION:Complete 10 math problems
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20240121T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:CSVConvert0526138ddc91f76ebcf52b7a0ba363ad
+DTSTAMP:20260420T222413Z
+DTSTART:20250115T133000
+DURATION:PT1H
+SUMMARY:Advanced Calculus 1 Topics
+DESCRIPTION:Exponential and logarithmic functions\; Advanced differentiatio
+ n and optimization\; Applications of integration (continued)
+LOCATION:Home
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6so6ap1hcgq34b9h70o3eb9kcks66bb2cdh66bb36ph36oj16pim8eb6ck@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240820T103000
+DURATION:PT1H
+SUMMARY:INTRODUCTION TO COMMUNICATION
+DESCRIPTION:Read the the privacy management theory. 
+LOCATION:Communication Sciences Bldg 303
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:cphjicr26oq66b9j6os34b9k68qjeb9o6som8b9jcdhm6ohjcko32cpm6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240118T090000
+DURATION:PT1H
+SUMMARY:Go get some gas
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:CSVConvertc9b8281bfa8c7b721afb48940a677a45
+DTSTAMP:20260420T222413Z
+DTSTART:20250114T163000
+DURATION:PT1H
+SUMMARY:Advanced Calculus 1 Topics
+DESCRIPTION:Exponential and logarithmic functions\; Advanced differentiatio
+ n and optimization\; Applications of integration (continued)
+LOCATION:Home
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:64rm6cphcks3abb568s64b9k6dim4b9o6ph30bb16oqj0c9k74p32c1p6c@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240117T103000
+DURATION:PT1H
+SUMMARY:Drive to the gym
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:70qj0chn71i34bb66ks6ab9kc5h3gbb2chim4b9n6cr64e9j6pj30or2cg@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240122T180000
+DURATION:PT1H
+SUMMARY:Dbms exam
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240507T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6dijgpj56cpj0b9o64s62b9kcco3ibb16comcb9hc8pjip1gcco36ohmcc@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240122T170000
+DURATION:PT1H
+SUMMARY:Lunch
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240506T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cgp6cor360qmab9o68p3cb9k64p32bb270pm2b9h6pj62dhlccqj8opnc8@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230124T103000
+DURATION:PT1H
+SUMMARY:Bed
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230512T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aRyIC.Rc0kEWljPaUz6KJqw.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20240122T133000
+DURATION:PT1H
+SUMMARY:Lab 14: Nonverbal Comm.  [COMM-1115G-M3H]
+DESCRIPTION:----------------------------------\nCOMM 1115GLab 14: Nonverbal
+  Comm. \n----------------------------------\n\nLAB 14\nNonverbal Communic
+ ation\n\nLab Content - Informative Speech Debrief\, Nonverbal Communicatio
+ n Activity\, Special Occasion Speech Assignment Instructions\n\nInformativ
+ e Speech Debrief:\n\n● Now that we're finished with informative speeches
+ \, what was the most difficult part about\nthe presentation?\n● Now that
+  you know what to expect\, how could you better your presentation for your
+ \npersuasive speech?\n● What do you think you could have done better in 
+ the informative speech?\n● What advice would you give someone who is pre
+ senting for the first time?\n\nNonverbal Communication Activity:\n\n[https
+ ://www.youtube.com/watch?v=K12WhrZfxxw&list=WL&index=79Links to an externa
+ l site.] (https://www.youtube.com/watch?v=K12WhrZfxxw&list=WL&index=79)[[]
+  (https://nmsu.instructure.com/images/play_overlay.png)] (https://www.yout
+ ube.com/watch?v=K12WhrZfxxw&list=WL&index=79) \n\nSpecial Occasion Speech
+  Assignment Instructions: \n\n(See Special Occasion Speech Instructions i
+ n Week 8 Module)\n\nHOMEWORK for Lab 15:\n\nPlease prepare & submit a simp
+ le outline of the Paper/Podcast assignment & upload it into the LAB 15 Mod
+ ule. \n\n 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c8pj8cho68p3cb9jckqmcb9kcgq3ibb164o6cb9k6cqj2p1j6hij2ob168@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220322T210000
+DURATION:PT1H
+SUMMARY:Remember to cancel your subscription to audible
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220329T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aOnyS8qnBzU6yT35VdmtyIQ.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20220321T060000
+DURATION:PT1H
+SUMMARY:CCD Extra Credit [COMM-1115G-M3H]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220323T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aLMPP_mVYR0mhB85Ooufndw.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20240118T103000
+DURATION:PT1H
+SUMMARY:Sec. 7.2 Simplifying Rational Expressions [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c4o6apb2c8pjab9j65j66b9kcgsm6bb16oq38bb470rj8ohh69gj0cr4cc@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240122T103000
+DURATION:PT1H
+SUMMARY:Weekly planing
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64r3ae1gckr36bb6c9j3gb9k6lhmabb265gj8bb268r34p32ccq3ep9o6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250116T163000
+DURATION:PT1H
+SUMMARY:Apply to the NSA internship 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:71h6adj26opmab9o61i62b9k68sm2bb26lgj2bb3ckr3adpk71gj4phh6s@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220328T213000
+DURATION:PT1H
+SUMMARY:Clean the church with elders
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220614T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cks68ohg64oj0b9jc4q62b9kcko3ibb2c8o62bb2c9im8o9kcgo66pb36g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240307T150000
+DURATION:PT1H
+SUMMARY:Church
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c8smceb16gsjgb9o6cs34b9kcksm2bb16kr3cb9p6cs32d3169gmcp9h64@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220914T133000
+DURATION:PT1H
+SUMMARY:Ministering
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20221111T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:vkbiouoca1nu35069uc8n5rm6s@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240123T103000
+DURATION:PT1H
+SUMMARY:Fieldprint Appointment
+DESCRIPTION:Fieldprint Appointment\nSecurity Concepts\, 130 North Solano Dr
+ ive\, (intersection of Solano & Griggs)\, Las Cruces\, NM \n88001\n\nConfi
+ rmation number: 24086438
+LOCATION:Security Concepts\, 130 North Solano Drive\, (intersection of Sola
+ no & Griggs)\, Las Cruces\, NM \n88001
+ATTENDEE:mailto:jameson.m.jolley@gmail.com
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a7XFrZdijS0mdlbCDEoZQ3g.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230119T103000
+DURATION:PT1H
+SUMMARY:Quiz 5 - The Art Of Directing [THEA-1110G-M02]
+DESCRIPTION:[quiz.png] (https://nmsu.instructure.com/courses/1525373/files/
+ 212599400/preview)\n\nTen minutes*\, ten questions\, ten points. One attem
+ pt. Good luck!\n\n*unless previously arranged. You can have more time\, bu
+ t you need to ask before Friday and before you start taking the quiz. 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230512T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ckrm2oj168p6ab9m6oo3cb9k70rj2bb160sj6bb570ojeoj5c4s6ad1h70@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210502T113000
+DURATION:PT1H
+SUMMARY:Code review 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210523T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:70ojic9j6li32b9o60q62b9kc5ij8b9p6orjibb2cdi66dpn68r3ge9jcc@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230115T100000
+DURATION:PT1H
+SUMMARY:Compilers exam
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230122T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:CSVConvertca5b0a7b9f659b0c56f38cc3adc5cd2f
+DTSTAMP:20260420T222413Z
+DTSTART:20230118T203000
+DURATION:PT1H
+SUMMARY:Advanced Calculus 1 Topics
+DESCRIPTION:Exponential and logarithmic functions\; Advanced differentiatio
+ n and optimization\; Applications of integration (continued)
+LOCATION:Home
+CATEGORIES:work
+RRULE:FREQ=DAILY
+END:VEVENT
+BEGIN:VEVENT
+UID:cop3ic3671gjgb9m6hj38b9k6dh3cb9p68oj6bb56osj6e1m6oo3ichoco@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230222T072000
+DURATION:PT1H
+SUMMARY:Practice typing
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230423T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:71hj0dr56ks6cb9lcpj3ib9kcos3ab9ocdj36bb36th62dho6kq62ohj60@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240820T090000
+DURATION:PT1H
+SUMMARY:Sleeping
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:cdi66d3371i3gb9pc8sj4b9k70p3ib9o71i38b9oc4rm4ohnc5i38o9hcc@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210504T064500
+DURATION:PT1H
+SUMMARY:Adults temple trip
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220321T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aKx8UWVJiFE6EFHVngikl9Q.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230118T103000
+DURATION:PT1H
+SUMMARY:Grow with Google HSI Career Readiness Program  [COMM-1115G-M3H]
+DESCRIPTION:--------------------------------------------------------\nCOMM1
+ 115G Grow with Google: HSI Career Readiness Program\n---------------------
+ -----------------------------------\n\nHSI Career Readiness Program Assign
+ ment\n---------------------------------------\n\nThe GwG program offers fi
+ ve options called “pathways” from which you will complete 2 core lesso
+ ns and then upload a screenshot to this assignment page. Most lessons incl
+ ude watching a video lesson and then clicking “mark as complete” at th
+ e bottom of the screen. For credit purposes\, you will need to take a scre
+ enshot of the page after clicking “mark as complete” and upload the sc
+ reenshot as a pdf or JPEG/JPG as proof of completion for credit.  \n\n \
+ n\nYou will find the sign-up instructions that Google has provided below t
+ hese instructions. This allows you to enroll in the SkillShop LMS so you c
+ an access the lessons. You can choose any 2 core lessons you desire. Here 
+ is a list of the pathways and core lessons: https://skillshop.exceedlms.co
+ m/student/catalog/list?category_ids=6757-hsi-career-readiness-program \n\
+ n \n\nSteps to get you started:\n\n1. Read the sign-up instructions (atta
+ chment below)\n\n2. Once signed up\, click on the Grow with Google Career 
+ Readiness Program link in the attachment\n\n3. Watch videos and/or complet
+ e exercises in the desired core lesson\n\n4. Click “Mark as Complete” 
+ when finished\n\n5. Screenshot and upload proof of completion into this Ca
+ nvas assignment page.\n\n \n\nWe encourage you to complete at least one c
+ ore lesson as soon as possible. Please let your GTA know if you have any q
+ uestions.\n\nSign-up guide\n-------------\n\n[HSI Career Readiness Program
+  sign-up guide.pdf] (https://nmsu.instructure.com/courses/1529739/files/21
+ 2514447?wrap=1)\n\nGrading\n-------\n\nYour completion of the criteria abo
+ ve will gain you the points listed for this assignment. \n\nIf criteria a
+ re NOT met you will receive the following point deductions:\n\n* 10% deduc
+ tion up to 7 consecutive days the assignment is late. After 7 consecutive 
+ days\, you will receive a zero. \n\n* 50% deduction for only submitting p
+ roof of one lesson. \n\n 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230512T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aMAkQbHnFkEexOFjm2SS7Zw.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230821T121500
+DURATION:PT1H
+SUMMARY:Chapter 6 Assignment [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240107T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:74sjap36cph3cbb2ccs3cb9k60o3abb164pjgb9jcgq3gd1nc5gj4o9h64@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220323T083000
+DURATION:PT1H
+SUMMARY:Sleeping
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220612T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:1751119804612@default
+DTSTAMP:20260420T222413Z
+DTSTART:20250116T103000
+DURATION:PT1H
+SUMMARY:Temple Appointment (Proxy Endowment) 28 Jun 2025
+DESCRIPTION:Your Appointment   \n   \nAlbuquerque New Mexico Temple   \nPro
+ xy Endowment   \n   \nSaturday   \nJun 28\, 2025   \n3:00 PM   \nAll appoi
+ ntment times are in the local time zone of the temple.   \n   \n   \nAddre
+ ss   \n10301 San Francisco Rd NE   \nAlbuquerque NM 87122-3437   \nUnited 
+ States   \n   \nPhone   \n+1 (505) 822-8181   \n   \nServices   \nClothing
+  rental available   \nNo cafeteria available   \nNo patron housing availab
+ le   \nDistribution center onsite   \n   \n   \nPlease be at the temple at
+  least 30 minutes before your session time.   \nYou will need to bring a v
+ alid temple recommend.   \nYou will also need to bring your own temple clo
+ thes.   \n   \nYou will receive another email 24 hours before your appoint
+ ment.
+LOCATION:10301 San Francisco Rd NE Albuquerque NM 87122-3437 United States
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:65h66c33cpj64b9k6gq3ib9kckoj6b9o60r34bb4c8oj4oj26pgj4e316k@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220323T120000
+DURATION:PT1H
+SUMMARY:Breakfast\, go to work 
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230224T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c4s6acb46sp34bb271j30b9kchgjab9p60oj6bb171ij2oplccr66ob2co@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240821T103000
+DURATION:PT1H
+SUMMARY:Work
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:CSVConvertc3da31a3b1aa52ae44619d1484f5d93e
+DTSTAMP:20260420T222413Z
+DTSTART:20220516T053000
+DURATION:PT1H
+SUMMARY:Pre-Calculus and Trigonometry Review
+DESCRIPTION:Review coordinate geometry\; Practice problems related to revie
+ wed topics\; Continue practice and reinforce weak areas
+LOCATION:Home
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220612T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6ssmac1n6ss68bb1ckq68b9kccqjab9p6gpmcb9i6gr3ccj3ccp32cj3c8@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220913T180000
+DURATION:PT1H
+SUMMARY:Church
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230606T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6gqjeopnccs3eb9lc5h36b9k65j3cbb1cli3gb9mc9ij4cr56di6cdpk6g@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220328T060000
+DURATION:PT1H
+SUMMARY:Study math 4110
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220612T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64s32o9o74sj0b9n74qj4b9k71ijgbb265j6ab9mckq36dhhccr36chk60@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240123T190000
+DURATION:PT1H
+SUMMARY:Gatherings
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240507T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coo34ohk6goj4b9kcdij2b9k64q6abb161j32bb26cr6cc9j6sr64dj2cg@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230201T143000
+DURATION:PT1H
+SUMMARY:Chest/arm day
+DESCRIPTION:10 push/pull ups ever hour.
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230512T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:71i30db2cgr68bb5c8smcb9k6sojibb1cor3ebb46kpj2dhl6osm4d1n70@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240820T170000
+DURATION:PT1H
+SUMMARY:CELL/MOLE BIOL LAB
+DESCRIPTION:This course introduces students to major topics in general biol
+ ogy. This courses focuses on the principles of structure and function of l
+ iving things at the molecular\, cellular and organismic levels of organiza
+ tion. Major topics included are introduction to the scientific process\, c
+ hemistry of cells\, organization of cells\, cellular respiration\, photosy
+ nthesis\, cell division\, genetics\, DNA replication\, transcription\, and
+  translation. May be repeated up to 1 credit. Prerequisite: MATH 1215 or h
+ igher\, and a C- or better in (CHEM 1120G or CHEM 1215G or CHEM 1216). Pre
+ requisite/Corequisite: BIOL 2110G.
+LOCATION:Foster Hall 230
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:ccp3idr6ckq3ib9mcgp3ib9k6opj2b9p74rj6b9k6gsj8cb2ckp3cc3160@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230224T140000
+DURATION:PT1H
+SUMMARY:Get up
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230330T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:60r6aob4cgo38bb3cgq64b9k6cpjcb9o64rjgb9o74r32c9o6csmce3168@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230606T185000
+DURATION:PT1H
+SUMMARY:Google tech exchange room 124 science hall 
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20240121T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c8p3cohmc4q34b9p6sr3ab9kcdhj6bb26ph3ab9h61h62cpmc4qj4dpo6o@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210502T133000
+DURATION:PT1H
+SUMMARY:DISCRETE MATH FOR CS
+DESCRIPTION:Discrete mathematics required for Computer Science\, including 
+ the basics of logic\, number theory\, methods of proof\, sequences\, mathe
+ matical induction\, set theory\, counting\, and functions. Taught with C S
+  465.  Prerequisite:  At least C- in C S 172.
+LOCATION:Science Hall 102
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220319T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c9j3gdb66op6cbb16ti66b9k70o36b9p68oj4b9j6pgm8d336lim2db268@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240116T140000
+DURATION:PT1H
+SUMMARY:Ask Jo about the sprint
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240601T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ckq32e1l71i38b9mcop38b9kc8s6cbb26gpmcbb16tj3apj1c4r3ge31co@google.com-2
+DTSTAMP:20260420T222413Z
+DTSTART:20240819T103000
+DURATION:PT1H
+SUMMARY:Work
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6ti66dj365ij2b9p64pj2b9k6li32b9o6dhjgb9pc4rmcdppcdhjecb1co@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220323T060000
+DURATION:PT1H
+SUMMARY:Book of Mormon thing at the v chapel
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20220328T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aQ5NQtc3SS0WIsuMNPMVa_Q.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20240820T120000
+DURATION:PT1H
+SUMMARY:Sec. 4.1 Graphing Quad. Equat. in General Form [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:arUOXnsMyVUq..rm7scIHjg.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20250422T100000
+DURATION:PT1H
+SUMMARY:Sec. 4.6 Solving Quad. Equat. by the Quad. Formula [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250527T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aPr_9HAsC.k6mOT07NHVW.g.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20210301T100000
+DURATION:PT1H
+SUMMARY:Sec. 5.2 Solving Equations Using Exponential Rules [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210307T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a89v8JmfPh0OPIDUDZG.YjQ.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20250116T090000
+DURATION:PT1H
+SUMMARY:Quiz 7 - Theatre Around The World [THEA-1110G-M02]
+DESCRIPTION:[quiz.png] (https://nmsu.instructure.com/courses/1525373/files/
+ 212599400/preview)\n\n10 questions\, 10 points\, 10 minutes*. 1 attempt. G
+ ood luck!\n\n*unless previously arranged
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:cpgm6e9h6lgm8b9h6th6cb9kc8q62bb2c4s6ab9occr3gpj6corjgd32c8@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250127T150000
+DURATION:PT1H
+SUMMARY:School
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250526T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:asSZW6i5VBESbQS_lWl0Q1w.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20250120T150000
+DURATION:PT1H
+SUMMARY:Sec. 8.4 Solving Radical Equations [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250124T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c7f21be4236eb4c288cfeaac9171678f408f3778
+DTSTAMP:20260420T222413Z
+DTSTART:20250123T150000
+DURATION:PT1H
+SUMMARY:work
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250527T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6pi3ac9ickq3abb46or3ib9k74oj4b9pcdj62bb468sjio9mchj32phi64@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240119T133000
+DURATION:PT1H
+SUMMARY:Apt with therapist 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aHa6tYSKZqE.U6.ZvkV3GQw.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230222T190000
+DURATION:PT1H
+SUMMARY:Chapter Exam #2 [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240125T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6pj34ob270qjab9pc5ij2b9kcpgmabb174oj8bb66gpj8cj5c8ojephocg@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20250218T110000
+DURATION:PT1H
+SUMMARY:Sleeping
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20250415T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6th32ob1c8r3ib9jc4r68b9kc4s6cbb2ckq36b9o74q6cdpp71im2o9g70@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240201T143000
+DURATION:PT1H
+SUMMARY:Make/eat dinner
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240307T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6krmcohoc4r3cb9m64q3ib9k71hjgb9o6sqmabb269h62pb568qjie9jc4@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20260320T180000
+DURATION:PT1H
+SUMMARY:School
+CATEGORIES:work
+RRULE:FREQ=DAILY
+END:VEVENT
+BEGIN:VEVENT
+UID:chhjae3261ij2bb561j3cb9k75j68bb270r6ab9kc8r3achg6hh66d9g6s@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230123T083000
+DURATION:PT1H
+SUMMARY:Sharepoint meeting
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230511T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ckqjee9i6him8b9nchhm2b9k64qm2bb160r68b9k6opm2e9g6go3ee34cc@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210705T083000
+DURATION:PT1H
+SUMMARY:Shower and teeth
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210712T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ar65ZYKl_c0.iS8pV_ngkHA.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20260119T025000
+DURATION:PT1H
+SUMMARY:Individual Project - Final [THEA-1110G-M02]
+DESCRIPTION:Please turn in your individual projects here.\n\nMore informa
+ tion on project specifications\, including rubrics: [Individual Projects -
+  Instructions] (https://nmsu.instructure.com/courses/1525373/pages/individ
+ ual-projects-instructions)
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6gq66cj3c5hj4bb26lj3ab9k6spjibb2chj3eb9g74ojior260ojcc1p6c@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220321T073000
+DURATION:PT1H
+SUMMARY:Ysa conference 
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220612T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:69i6aphlcgq32b9m64qj4b9k6ooj4b9oc4sm8b9o6gp38dpiclijedhpc4@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220322T050000
+DURATION:PT1H
+SUMMARY:O O PROGRAMMING
+LOCATION:Science Hall 118
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220328T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a57jwGWULZ0eHFm_OEjuDxw.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20230118T143000
+DURATION:PT1H
+SUMMARY:Work out log 6 [PHED-1510-M08]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230201T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6di6ap9o6cs6ab9pc4pm8b9k6gomabb26srj0bb16sq3ic1n6pijgc1g6o@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20220613T000000
+DURATION:PT1H
+SUMMARY:DISCRETE MATH FOR CS
+DESCRIPTION:Discrete mathematics required for Computer Science\, including 
+ the basics of logic\, number theory\, methods of proof\, sequences\, mathe
+ matical induction\, set theory\, counting\, and functions. Taught with C S
+  465.  Prerequisite:  At least C- in C S 172.
+LOCATION:Science Hall 118B
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20230821T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:61gmcp9i68pj0b9i6kqm6b9kcpgjeb9oc4o66b9nc5i62or46ooj8dhl6o@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240905T163000
+DURATION:PT1H
+SUMMARY:Homework
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:ckq34p1n6thjcb9gc5hmcb9k6tij8bb164r34b9m6csjidhi74smap336s@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210503T064500
+DURATION:PT1H
+SUMMARY:Apt with therapist 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210504T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c8smacj361i68bb170sjib9k75h6abb26hgm4bb168s3cpb16dhj0d1g60@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20240119T103000
+DURATION:PT1H
+SUMMARY:Hike with holly
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240510T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E0080000000076E494700869DA01000000000000000
+ 010000000E0C4DC25D7D0C647AAAA717E1A78F9B5
+DTSTAMP:20260420T222413Z
+DTSTART:20230829T130000
+DURATION:PT1H
+SUMMARY:traing for data entry job
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20240108T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6ss68eb3c8p38b9gcgqj0b9k6gp3cbb1ckoj2bb2corj8c1kckqjeo9m6k@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210502T080000
+DURATION:PT1H
+SUMMARY:CALCULUS I HONORS
+DESCRIPTION:Limits and continuity\, theory and computation of derivatives\,
+  applications of derivatives\, extreme values\, critical points\, derivati
+ ve tests\, L'Hopital's Rule. This is an Honors version of MATH 1511G. It i
+ s taught with MATH 1511G with differentiated assignments. Prerequisite: Ad
+ equate scoring on the Mathematics Placement Exam\, or any ACT/SAT and GPA 
+ combination that is considered equivalent\, or a C- or better in MATH 1250
+ G or higher.
+LOCATION:Science Hall 114
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220612T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aDktHJ65RHkGlk1EYONwa5g.ol
+DTSTAMP:20260420T222413Z
+DTSTART:20250117T133000
+DURATION:PT1H
+SUMMARY:Sec. 6.5 Solving Exponential Equations [CCDM-114 N-DIC]
+CATEGORIES:work
+RRULE:FREQ=WEEKLY
+END:VEVENT
+BEGIN:VEVENT
+UID:6sq38php6kojabb26gpm8b9kcgoj6bb270oj4bb375hmcob564oj8c35cg@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20181210T160000
+DURATION:PT1H
+SUMMARY:PT apt
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210307T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:CSVConvert51d58a5633d28b43df6eddb14887951e
+DTSTAMP:20260420T222413Z
+DTSTART:20210310T080000
+DURATION:PT1H
+SUMMARY:Introduction to Calculus 1
+DESCRIPTION:Introduction to limits and continuity\; Understanding derivativ
+ es and differentiation rules\; Applications of derivatives
+LOCATION:Home
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20210504T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:copjecj3c5j30bb46so32b9k6kp68b9o65i3cbb56li32cb5ccrjgdpnck@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20210502T180000
+DURATION:PT1H
+SUMMARY:COMPILERS & AUTOMATA
+DESCRIPTION:Methods\, principles\, and tools for programming language proce
+ ssor design\; basics of formal language theory (finite automata\, regular 
+ expressions\, context-free grammars)\; development of compiler components.
+  Taught with C S 466.  Prerequisite:  At least a C- in C S 271\, C S 272\,
+  and C S 273.
+LOCATION:Science Hall 118A
+CATEGORIES:work
+RRULE:FREQ=DAILY;UNTIL=20220913T235959Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c9gm2e9lcgq32bb4cgr34b9kc4pj0bb2cosjibb26hgm8dr26ti36cr164@google.com
+DTSTAMP:20260420T222413Z
+DTSTART:20230327T160000
+DURATION:PT1H
+SUMMARY:Working on speech 
+CATEGORIES:work
+RRULE:FREQ=WEEKLY;UNTIL=20230620T235959Z
+END:VEVENT
+END:VCALENDAR

@@ -6,9 +6,7 @@ Tools ~ "tools.ua"
 
 #for this pass if DiscardPast=1 then discard all events that todays data from the passed in matrix
 Tools~ParseStdio
-⨬∘(
-      ⊂ ⊙Tools~GetFutureRows Tools~GetUnexpiredRruleRows Tools~GetRowsWithRrule ⟜∘
-)⋕°□get□"DiscardPast"Tools~GetArgs
+⨬∘()⋕°□get□"DiscardPast"Tools~GetArgs
 
 #⨬∘(Tools~GetFutureRows)⋕°□get□"test"Tools~GetArgs
 Tools~FlatMatrixOut
